@@ -1,0 +1,1626 @@
+{
+  "entry": "make.fun competition news-summary-01 — 2026-11-11 world news digest",
+  "generated_utc": "2026-11-12T08:39:51.935959+00:00",
+  "window": {
+    "start_utc": "2026-11-11T00:00:00Z",
+    "end_utc": "2026-11-12T00:00:00Z",
+    "epoch_start": 1794355200,
+    "epoch_end": 1794441600
+  },
+  "stats": {
+    "hn_stories_in_window": 1000,
+    "hn_points_max": 1126,
+    "hn_points_p99": 352,
+    "hn_points_p90": 11,
+    "hn_points_median": 2,
+    "france24_in_window_entries": 18,
+    "france24_unique_headlines": 16,
+    "github_repos_created_that_day_reported_by_api": 348460
+  },
+  "sources_used": [
+    {
+      "kind": "hacker_news_algolia",
+      "what": "all 1,000 stories in window (10 pages x 100, by date)",
+      "status": "ok"
+    },
+    {
+      "kind": "hacker_news_algolia_items",
+      "what": "full comment threads for top 25 stories",
+      "status": "ok"
+    },
+    {
+      "kind": "hacker_news_firebase",
+      "what": "front-page snapshot 2026-11-12 ~08:10 UTC as recency cross-check",
+      "status": "ok"
+    },
+    {
+      "kind": "github_search",
+      "what": "repositories created 2026-11-11 sorted by stars",
+      "status": "ok (1 query; second query rate-limited 403)"
+    },
+    {
+      "kind": "arxiv_api",
+      "what": "cs.AI/cs.LG submissions in-window (0 found) + newest adjacent batch",
+      "status": "ok"
+    },
+    {
+      "kind": "arxiv_rss",
+      "what": "rss.arxiv.org cs.AI/cs.LG built 2026-11-12 05:00 UTC",
+      "status": "ok but 0 items"
+    },
+    {
+      "kind": "france24_rss",
+      "what": "world wire",
+      "status": "ok"
+    },
+    {
+      "kind": "bbc_rss",
+      "what": "feeds.bbci.co.uk/news/world/rss.xml",
+      "status": "failed (SSL handshake timeout)"
+    },
+    {
+      "kind": "dw_rss",
+      "what": "rss.dw.com/rdf/rss-en-world",
+      "status": "failed (connection reset)"
+    }
+  ],
+  "hn_stories_cited_in_summary": [
+    {
+      "id": "50459321",
+      "title": "Jensen Huang said to have had relationship with executive who reports to him",
+      "points": 352,
+      "num_comments": 425,
+      "author": "louiereederson",
+      "created_utc": "2026-11-11T22:03:58+00:00",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+      "hn_url": "https://news.ycombinator.com/item?id=50459321"
+    },
+    {
+      "id": "50459703",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "points": 923,
+      "num_comments": 1264,
+      "author": "jbredeche",
+      "created_utc": "2026-11-11T22:31:06+00:00",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "hn_url": "https://news.ycombinator.com/item?id=50459703"
+    },
+    {
+      "id": "50454937",
+      "title": "EU proposes Digital Fairness Act on dark patterns and addictive design [pdf]",
+      "points": 4,
+      "num_comments": 0,
+      "author": "Anonboxis",
+      "created_utc": "2026-11-11T15:59:40+00:00",
+      "url": "https://commission.europa.eu/document/download/0575d59f-554f-4a9e-b54b-e6b717175809_en?filename=Proposal+for+a+Digital+Fairness+Act_0.pdf",
+      "hn_url": "https://news.ycombinator.com/item?id=50454937"
+    },
+    {
+      "id": "50450488",
+      "title": "Tim Peters has died",
+      "points": 1126,
+      "num_comments": 126,
+      "author": "ayhanfuat",
+      "created_utc": "2026-11-11T07:03:17+00:00",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "hn_url": "https://news.ycombinator.com/item?id=50450488"
+    },
+    {
+      "id": "50458900",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "points": 525,
+      "num_comments": 515,
+      "author": "herpderperator",
+      "created_utc": "2026-11-11T21:24:35+00:00",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "hn_url": "https://news.ycombinator.com/item?id=50458900"
+    },
+    {
+      "id": "50451102",
+      "title": "OSS projects banning AI-generated contributions",
+      "points": 63,
+      "num_comments": 107,
+      "author": "jlengrand",
+      "created_utc": "2026-11-11T08:51:45+00:00",
+      "url": "https://osssaysno.com",
+      "hn_url": "https://news.ycombinator.com/item?id=50451102"
+    },
+    {
+      "id": "50450955",
+      "title": "Ukraine Pivots to Israeli-Italian Satellite Tech to Bypass Starlink Restrictions",
+      "points": 55,
+      "num_comments": 25,
+      "author": "vrganj",
+      "created_utc": "2026-11-11T08:26:40+00:00",
+      "url": "https://policy-wire.com/ukraine-pivots-to-israeli-italian-satellite-tech-to-bypass-starlink-restrictions/",
+      "hn_url": "https://news.ycombinator.com/item?id=50450955"
+    },
+    {
+      "id": "50455898",
+      "title": "British Telecom delays Starlink partnership amid recent Ukrainian disruption",
+      "points": 3,
+      "num_comments": 0,
+      "author": "giuliomagnifico",
+      "created_utc": "2026-11-11T17:19:32+00:00",
+      "url": "https://www.datacenterdynamics.com/en/news/bt-delays-starlink-partnership-amid-recent-ukrainian-disruption-report/",
+      "hn_url": "https://news.ycombinator.com/item?id=50455898"
+    },
+    {
+      "id": "50454289",
+      "title": "Digital Fairness Act: What the EU draft means for loot boxes in games",
+      "points": 2,
+      "num_comments": 0,
+      "author": "ada-h00k",
+      "created_utc": "2026-11-11T15:02:28+00:00",
+      "url": "https://www.heise.de/en/news/Digital-Fairness-Act-What-the-EU-draft-means-for-loot-boxes-in-games-11521109.html",
+      "hn_url": "https://news.ycombinator.com/item?id=50454289"
+    },
+    {
+      "id": "50456735",
+      "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
+      "points": 1,
+      "num_comments": 0,
+      "author": "EbNar",
+      "created_utc": "2026-11-11T18:28:15+00:00",
+      "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+      "hn_url": "https://news.ycombinator.com/item?id=50456735"
+    },
+    {
+      "id": "50455704",
+      "title": "European gaming firms say new EU consumer rules will 'cripple' the industry",
+      "points": 3,
+      "num_comments": 0,
+      "author": "giuliomagnifico",
+      "created_utc": "2026-11-11T17:04:22+00:00",
+      "url": "https://www.politico.eu/article/european-gaming-firms-say-new-eu-consumer-rules-will-cripple-the-industry-digital-fairness-act/",
+      "hn_url": "https://news.ycombinator.com/item?id=50455704"
+    },
+    {
+      "id": "50454140",
+      "title": "EU will ban cash payments over €10k starting July 2027",
+      "points": 9,
+      "num_comments": 1,
+      "author": "baal80spam",
+      "created_utc": "2026-11-11T14:49:53+00:00",
+      "url": "https://www.tradingview.com/news/cryptobriefing:2dd2948a9094b:0-eu-will-ban-cash-payments-over-10-000-starting-july-2027/",
+      "hn_url": "https://news.ycombinator.com/item?id=50454140"
+    },
+    {
+      "id": "50454010",
+      "title": "Dutch Government Working on Digital ID Without Dependency on Apple or Google",
+      "points": 3,
+      "num_comments": 0,
+      "author": "HelloUsername",
+      "created_utc": "2026-11-11T14:40:48+00:00",
+      "url": "https://developer.overheid.nl/blog/2026/11/11/nl-wallet",
+      "hn_url": "https://news.ycombinator.com/item?id=50454010"
+    },
+    {
+      "id": "50451985",
+      "title": "The Housing Market Is Nuts",
+      "points": 54,
+      "num_comments": 76,
+      "author": "herTTTz",
+      "created_utc": "2026-11-11T11:02:46+00:00",
+      "url": "https://nuts.logical.li/",
+      "hn_url": "https://news.ycombinator.com/item?id=50451985"
+    },
+    {
+      "id": "50454418",
+      "title": "Brazil's Serra Verde starts shipping heavy rare earths to US under 15-year deal",
+      "points": 24,
+      "num_comments": 4,
+      "author": "dvaplima",
+      "created_utc": "2026-11-11T15:14:59+00:00",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-announces-start-commercial-scale-shipments-and",
+      "hn_url": "https://news.ycombinator.com/item?id=50454418"
+    },
+    {
+      "id": "50452895",
+      "title": "Gen X will outnumber Baby Boomers in US Congress",
+      "points": 50,
+      "num_comments": 27,
+      "author": "heresie-dabord",
+      "created_utc": "2026-11-11T13:01:29+00:00",
+      "url": "https://www.ctinsider.com/columnist/article/gen-x-boomers-congress-2027-22522678.php",
+      "hn_url": "https://news.ycombinator.com/item?id=50452895"
+    },
+    {
+      "id": "50455907",
+      "title": "North Korea posts revised constitution dropping reunification goal",
+      "points": 13,
+      "num_comments": 9,
+      "author": "GaryBluto",
+      "created_utc": "2026-11-11T17:20:45+00:00",
+      "url": "https://www.upi.com/Top_News/World-News/2026/11/11/North-Korea-revised-constitution-reunification-Naenara/2891794386175/",
+      "hn_url": "https://news.ycombinator.com/item?id=50455907"
+    },
+    {
+      "id": "50460744",
+      "title": "Humanoid robot startup backed by Eric Trump in talks with Israel's military",
+      "points": 3,
+      "num_comments": 1,
+      "author": "petethomas",
+      "created_utc": "2026-11-11T23:51:33+00:00",
+      "url": "https://www.ft.com/content/8117b912-ebc7-46b2-90cd-a1ec32e12c5a",
+      "hn_url": "https://news.ycombinator.com/item?id=50460744"
+    },
+    {
+      "id": "50458234",
+      "title": "Trump admin loses fight to spy on random journalists' LinkedIn DMs",
+      "points": 14,
+      "num_comments": 0,
+      "author": "pseudolus",
+      "created_utc": "2026-11-11T20:28:29+00:00",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/",
+      "hn_url": "https://news.ycombinator.com/item?id=50458234"
+    },
+    {
+      "id": "50454106",
+      "title": "Reddit resisted giving users' data to government over critical ICE posts",
+      "points": 3,
+      "num_comments": 1,
+      "author": "moooooky",
+      "created_utc": "2026-11-11T14:47:11+00:00",
+      "url": "https://this.weekinsecurity.com/reddit-resisted-giving-users-personal-data-to-the-us-government-about-critical-ice-posts/",
+      "hn_url": "https://news.ycombinator.com/item?id=50454106"
+    },
+    {
+      "id": "50450055",
+      "title": "Nvidia loses ground in Washington chip fight after CEO spy scandal",
+      "points": 5,
+      "num_comments": 2,
+      "author": "snikolaev",
+      "created_utc": "2026-11-11T05:37:43+00:00",
+      "url": "https://www.politico.com/news/2026/11/10/nvidia-ceos-spy-scandal-tilts-capitol-hills-chip-fight-01160548",
+      "hn_url": "https://news.ycombinator.com/item?id=50450055"
+    },
+    {
+      "id": "50450601",
+      "title": "Fake accounts defended Jensen Huang and attacked lawmakers",
+      "points": 5,
+      "num_comments": 1,
+      "author": "DeepLogin",
+      "created_utc": "2026-11-11T07:21:42+00:00",
+      "url": "https://www.modelrepublic.org/articles/nvidia-koios-campaign-sockpuppet-accounts",
+      "hn_url": "https://news.ycombinator.com/item?id=50450601"
+    },
+    {
+      "id": "50452139",
+      "title": "Fake accounts defended Jensen Huang and attacked lawmakers over chip exports",
+      "points": 9,
+      "num_comments": 0,
+      "author": "pretext",
+      "created_utc": "2026-11-11T11:25:37+00:00",
+      "url": "https://twitter.com/TheMidasProj/status/2120212290385707321",
+      "hn_url": "https://news.ycombinator.com/item?id=50452139"
+    },
+    {
+      "id": "50453301",
+      "title": "China's military-linked institutions found ways around US Nvidia chips blacklist",
+      "points": 9,
+      "num_comments": 1,
+      "author": "ck2",
+      "created_utc": "2026-11-11T13:40:59+00:00",
+      "url": "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/",
+      "hn_url": "https://news.ycombinator.com/item?id=50453301"
+    },
+    {
+      "id": "50455376",
+      "title": "Alice Huang helped move 240k banned chips into China, mostly H100 and H200",
+      "points": 19,
+      "num_comments": 4,
+      "author": "CharlesW",
+      "created_utc": "2026-11-11T16:37:08+00:00",
+      "url": "https://www.tomshardware.com/tech-industry/policy/alice-huang-reportedly-instrumental-in-securing-over-usd7-5-billion-of-nvidia-ai-gpu-imports-during-three-year-relationship-with-jensen-huang-helped-move-240-000-banned-chips-into-china-mostly-h100-and-h200",
+      "hn_url": "https://news.ycombinator.com/item?id=50455376"
+    },
+    {
+      "id": "50456631",
+      "title": "AWS emulator",
+      "points": 810,
+      "num_comments": 232,
+      "author": "super_linear",
+      "created_utc": "2026-11-11T18:21:38+00:00",
+      "url": "https://github.com/aws/aws-emulator",
+      "hn_url": "https://news.ycombinator.com/item?id=50456631"
+    },
+    {
+      "id": "50456740",
+      "title": "AWS Emulator and the engineer's job when agents write the code",
+      "points": 111,
+      "num_comments": 2,
+      "author": "drbm",
+      "created_utc": "2026-11-11T18:28:31+00:00",
+      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "hn_url": "https://news.ycombinator.com/item?id=50456740"
+    },
+    {
+      "id": "50456791",
+      "title": "Gemini Decisions API",
+      "points": 399,
+      "num_comments": 122,
+      "author": "iamdelirium",
+      "created_utc": "2026-11-11T18:32:42+00:00",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "hn_url": "https://news.ycombinator.com/item?id=50456791"
+    },
+    {
+      "id": "50458532",
+      "title": "GitHub Incident with Webhooks, Actions, etc.",
+      "points": 81,
+      "num_comments": 61,
+      "author": "jbredeche",
+      "created_utc": "2026-11-11T20:54:37+00:00",
+      "url": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
+      "hn_url": "https://news.ycombinator.com/item?id=50458532"
+    },
+    {
+      "id": "50459485",
+      "title": "Lock Your GitHub Actions",
+      "points": 223,
+      "num_comments": 47,
+      "author": "gslin",
+      "created_utc": "2026-11-11T22:16:41+00:00",
+      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "hn_url": "https://news.ycombinator.com/item?id=50459485"
+    },
+    {
+      "id": "50452742",
+      "title": "Open research, stronger privacy: Making Firefox users harder to fingerprint",
+      "points": 172,
+      "num_comments": 57,
+      "author": "Vinnl",
+      "created_utc": "2026-11-11T12:44:06+00:00",
+      "url": "https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/",
+      "hn_url": "https://news.ycombinator.com/item?id=50452742"
+    },
+    {
+      "id": "50453637",
+      "title": "Atuin Threads: All your agent sessions on every machine",
+      "points": 212,
+      "num_comments": 79,
+      "author": "linsomniac",
+      "created_utc": "2026-11-11T14:10:46+00:00",
+      "url": "https://blog.atuin.sh/threads-agent-sessions/",
+      "hn_url": "https://news.ycombinator.com/item?id=50453637"
+    },
+    {
+      "id": "50454625",
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "points": 229,
+      "num_comments": 94,
+      "author": "brownrout",
+      "created_utc": "2026-11-11T15:33:06+00:00",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "hn_url": "https://news.ycombinator.com/item?id=50454625"
+    },
+    {
+      "id": "50457230",
+      "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+      "points": 215,
+      "num_comments": 85,
+      "author": "bolau",
+      "created_utc": "2026-11-11T19:12:16+00:00",
+      "url": "https://termsheetplease.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=50457230"
+    },
+    {
+      "id": "50458166",
+      "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+      "points": 93,
+      "num_comments": 23,
+      "author": "thefox96",
+      "created_utc": "2026-11-11T20:23:57+00:00",
+      "url": "https://github.com/huawei-csl/MACaQ",
+      "hn_url": "https://news.ycombinator.com/item?id=50458166"
+    },
+    {
+      "id": "50460154",
+      "title": "A general purpose Apple Silicon layer for x86-64 PCs",
+      "points": 97,
+      "num_comments": 39,
+      "author": "iceboundrock",
+      "created_utc": "2026-11-11T23:02:38+00:00",
+      "url": "https://github.com/tylertms/Stela",
+      "hn_url": "https://news.ycombinator.com/item?id=50460154"
+    },
+    {
+      "id": "50455633",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "points": 199,
+      "num_comments": 36,
+      "author": "zerop",
+      "created_utc": "2026-11-11T16:57:45+00:00",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "hn_url": "https://news.ycombinator.com/item?id=50455633"
+    },
+    {
+      "id": "50453171",
+      "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
+      "points": 69,
+      "num_comments": 5,
+      "author": "zerop",
+      "created_utc": "2026-11-11T13:29:46+00:00",
+      "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
+      "hn_url": "https://news.ycombinator.com/item?id=50453171"
+    },
+    {
+      "id": "50451903",
+      "title": "Using voltage glitching to unleash the A100 in my mining card",
+      "points": 291,
+      "num_comments": 115,
+      "author": "lae",
+      "created_utc": "2026-11-11T10:48:40+00:00",
+      "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+      "hn_url": "https://news.ycombinator.com/item?id=50451903"
+    },
+    {
+      "id": "50453555",
+      "title": "Apple is killing its Support Community forum next week",
+      "points": 256,
+      "num_comments": 3,
+      "author": "saikatsg",
+      "created_utc": "2026-11-11T14:02:11+00:00",
+      "url": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+      "hn_url": "https://news.ycombinator.com/item?id=50453555"
+    },
+    {
+      "id": "50459745",
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "points": 383,
+      "num_comments": 50,
+      "author": "zenincognito",
+      "created_utc": "2026-11-11T22:34:23+00:00",
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "hn_url": "https://news.ycombinator.com/item?id=50459745"
+    },
+    {
+      "id": "50453288",
+      "title": "Hyper-Realistic Sand with WebGL2",
+      "points": 361,
+      "num_comments": 67,
+      "author": "everlier",
+      "created_utc": "2026-11-11T13:39:29+00:00",
+      "url": "https://av.github.io/safe-sand/",
+      "hn_url": "https://news.ycombinator.com/item?id=50453288"
+    },
+    {
+      "id": "50457164",
+      "title": "Retirement Savings Are Fueling the AI Bubble",
+      "points": 154,
+      "num_comments": 162,
+      "author": "speckx",
+      "created_utc": "2026-11-11T19:06:43+00:00",
+      "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+      "hn_url": "https://news.ycombinator.com/item?id=50457164"
+    },
+    {
+      "id": "50456668",
+      "title": "Anthropic says a key AI safety alarm has been triggered, days before its IPO",
+      "points": 15,
+      "num_comments": 11,
+      "author": "healsdata",
+      "created_utc": "2026-11-11T18:23:31+00:00",
+      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
+      "hn_url": "https://news.ycombinator.com/item?id=50456668"
+    },
+    {
+      "id": "50453064",
+      "title": "Anthropic's IPO Visualized",
+      "points": 2,
+      "num_comments": 0,
+      "author": "hubraumhugo",
+      "created_utc": "2026-11-11T13:18:24+00:00",
+      "url": "https://www.kadoa.com/companies/insights/anthropic-ipo-pricing",
+      "hn_url": "https://news.ycombinator.com/item?id=50453064"
+    },
+    {
+      "id": "50451820",
+      "title": "OpenAI Continues to Suffer Heavy Losses as Revenue Rises to $10B",
+      "points": 8,
+      "num_comments": 1,
+      "author": "pretext",
+      "created_utc": "2026-11-11T10:35:25+00:00",
+      "url": "https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb",
+      "hn_url": "https://news.ycombinator.com/item?id=50451820"
+    },
+    {
+      "id": "50457124",
+      "title": "SocGen looks to offload Stargate data center debt at discount",
+      "points": 2,
+      "num_comments": 0,
+      "author": "petethomas",
+      "created_utc": "2026-11-11T19:01:12+00:00",
+      "url": "https://www.9fin.com/insights/socgen-stargate-data-center-debt",
+      "hn_url": "https://news.ycombinator.com/item?id=50457124"
+    },
+    {
+      "id": "50451588",
+      "title": "Do the day's losing stocks still bounce in the last half hour? A registered test",
+      "points": 6,
+      "num_comments": 0,
+      "author": "svidov222",
+      "created_utc": "2026-11-11T10:02:19+00:00",
+      "url": "https://arxiv.org/abs/2611.09286",
+      "hn_url": "https://news.ycombinator.com/item?id=50451588"
+    },
+    {
+      "id": "50454606",
+      "title": "Forward Model MK1, LLM trained for financial markets",
+      "points": 3,
+      "num_comments": 0,
+      "author": "allangrant",
+      "created_utc": "2026-11-11T15:31:46+00:00",
+      "url": "https://forwardmodel.ai/",
+      "hn_url": "https://news.ycombinator.com/item?id=50454606"
+    },
+    {
+      "id": "50456534",
+      "title": "Dropbox Plans to Acquire Tigris – Tigris Object Storage",
+      "points": 1,
+      "num_comments": 0,
+      "author": "ossusermivami",
+      "created_utc": "2026-11-11T18:13:09+00:00",
+      "url": "https://www.tigrisdata.com/blog/dropbox-plans-acquire-tigris/",
+      "hn_url": "https://news.ycombinator.com/item?id=50456534"
+    },
+    {
+      "id": "50456753",
+      "title": "US vs. China, last 20 days of VC: the US bets on AI agents, China bets on robots",
+      "points": 1,
+      "num_comments": 0,
+      "author": "jrbayguade",
+      "created_utc": "2026-11-11T18:29:35+00:00",
+      "url": "https://justraised.io/blog/us-vs-china-agents-vs-robots",
+      "hn_url": "https://news.ycombinator.com/item?id=50456753"
+    },
+    {
+      "id": "50452455",
+      "title": "My AI agents found an unmapped Maya site?",
+      "points": 976,
+      "num_comments": 355,
+      "author": "eyvindn",
+      "created_utc": "2026-11-11T12:05:22+00:00",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "hn_url": "https://news.ycombinator.com/item?id=50452455"
+    },
+    {
+      "id": "50459151",
+      "title": "We just found a new Dwarf Planet in our solar system with Claude and you can too",
+      "points": 3,
+      "num_comments": 0,
+      "author": "fredrickd",
+      "created_utc": "2026-11-11T21:47:42+00:00",
+      "url": "https://twitter.com/willdepue/status/2120632732107907471",
+      "hn_url": "https://news.ycombinator.com/item?id=50459151"
+    },
+    {
+      "id": "50457669",
+      "title": "IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality",
+      "points": 54,
+      "num_comments": 26,
+      "author": "gok",
+      "created_utc": "2026-11-11T19:47:59+00:00",
+      "url": "https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027",
+      "hn_url": "https://news.ycombinator.com/item?id=50457669"
+    },
+    {
+      "id": "50457083",
+      "title": "Cancer vaccine for Yash, he's diagnosed with stage IV pancreatic cancer",
+      "points": 81,
+      "num_comments": 15,
+      "author": "AsDivyansh",
+      "created_utc": "2026-11-11T18:57:01+00:00",
+      "url": "https://github.com/popvax/yash",
+      "hn_url": "https://news.ycombinator.com/item?id=50457083"
+    },
+    {
+      "id": "50451805",
+      "title": "More Than Half of Europe's Privacy Regulators Use US Infrastructure",
+      "points": 6,
+      "num_comments": 0,
+      "author": "adulion",
+      "created_utc": "2026-11-11T10:32:53+00:00",
+      "url": "https://ciphercue.com/blog/europe-privacy-regulators-us-infrastructure",
+      "hn_url": "https://news.ycombinator.com/item?id=50451805"
+    },
+    {
+      "id": "50453474",
+      "title": "I asked every TV manufacturer 17 questions about how they spy on you",
+      "points": 352,
+      "num_comments": 242,
+      "author": "Brajeshwar",
+      "created_utc": "2026-11-11T13:56:05+00:00",
+      "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+      "hn_url": "https://news.ycombinator.com/item?id=50453474"
+    },
+    {
+      "id": "50455394",
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "points": 473,
+      "num_comments": 236,
+      "author": "mbac32768",
+      "created_utc": "2026-11-11T16:38:44+00:00",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "hn_url": "https://news.ycombinator.com/item?id=50455394"
+    }
+  ],
+  "hn_cited_ids_missing_from_merge": [],
+  "hn_top10_by_points": [
+    {
+      "id": "50450488",
+      "title": "Tim Peters has died",
+      "points": 1126,
+      "num_comments": 126,
+      "author": "ayhanfuat",
+      "created_utc": "2026-11-11T07:03:17+00:00",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "hn_url": "https://news.ycombinator.com/item?id=50450488"
+    },
+    {
+      "id": "50452455",
+      "title": "My AI agents found an unmapped Maya site?",
+      "points": 976,
+      "num_comments": 355,
+      "author": "eyvindn",
+      "created_utc": "2026-11-11T12:05:22+00:00",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "hn_url": "https://news.ycombinator.com/item?id=50452455"
+    },
+    {
+      "id": "50459703",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "points": 923,
+      "num_comments": 1264,
+      "author": "jbredeche",
+      "created_utc": "2026-11-11T22:31:06+00:00",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "hn_url": "https://news.ycombinator.com/item?id=50459703"
+    },
+    {
+      "id": "50456631",
+      "title": "AWS emulator",
+      "points": 810,
+      "num_comments": 232,
+      "author": "super_linear",
+      "created_utc": "2026-11-11T18:21:38+00:00",
+      "url": "https://github.com/aws/aws-emulator",
+      "hn_url": "https://news.ycombinator.com/item?id=50456631"
+    },
+    {
+      "id": "50458900",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "points": 525,
+      "num_comments": 515,
+      "author": "herpderperator",
+      "created_utc": "2026-11-11T21:24:35+00:00",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "hn_url": "https://news.ycombinator.com/item?id=50458900"
+    },
+    {
+      "id": "50455394",
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "points": 473,
+      "num_comments": 236,
+      "author": "mbac32768",
+      "created_utc": "2026-11-11T16:38:44+00:00",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "hn_url": "https://news.ycombinator.com/item?id=50455394"
+    },
+    {
+      "id": "50456791",
+      "title": "Gemini Decisions API",
+      "points": 399,
+      "num_comments": 122,
+      "author": "iamdelirium",
+      "created_utc": "2026-11-11T18:32:42+00:00",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "hn_url": "https://news.ycombinator.com/item?id=50456791"
+    },
+    {
+      "id": "50459745",
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "points": 383,
+      "num_comments": 50,
+      "author": "zenincognito",
+      "created_utc": "2026-11-11T22:34:23+00:00",
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "hn_url": "https://news.ycombinator.com/item?id=50459745"
+    },
+    {
+      "id": "50453288",
+      "title": "Hyper-Realistic Sand with WebGL2",
+      "points": 361,
+      "num_comments": 67,
+      "author": "everlier",
+      "created_utc": "2026-11-11T13:39:29+00:00",
+      "url": "https://av.github.io/safe-sand/",
+      "hn_url": "https://news.ycombinator.com/item?id=50453288"
+    },
+    {
+      "id": "50459321",
+      "title": "Jensen Huang said to have had relationship with executive who reports to him",
+      "points": 352,
+      "num_comments": 425,
+      "author": "louiereederson",
+      "created_utc": "2026-11-11T22:03:58+00:00",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+      "hn_url": "https://news.ycombinator.com/item?id=50459321"
+    }
+  ],
+  "github_breakout_repos_created_2026_11_11": [
+    {
+      "full_name": "setyamickala/fastmint-fcfs-agentic",
+      "url": "https://github.com/setyamickala/fastmint-fcfs-agentic",
+      "stars": 217,
+      "language": "JavaScript",
+      "description": "FCFS mint di BNB Smart Chain lewat Binance Agentic Wallet, masuk blok ±2 detik setelah jam buka.",
+      "created_at": "2026-11-11T03:42:12Z"
+    },
+    {
+      "full_name": "SsKanDon/blender-ai-mcp-addon",
+      "url": "https://github.com/SsKanDon/blender-ai-mcp-addon",
+      "stars": 208,
+      "language": null,
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripti",
+      "created_at": "2026-11-11T17:24:32Z"
+    },
+    {
+      "full_name": "SsKanDon/blender-unreal-asset-bridge",
+      "url": "https://github.com/SsKanDon/blender-unreal-asset-bridge",
+      "stars": 193,
+      "language": null,
+      "description": "An AI-assisted asset bridge from Blender to Unreal Engine — batch-export static and skeletal meshes, animations, collisions, sockets and cameras into a UE-ready folder tree, rebuild everything with ge",
+      "created_at": "2026-11-11T18:36:45Z"
+    },
+    {
+      "full_name": "linknimiball1974/ai-texture-forge",
+      "url": "https://github.com/linknimiball1974/ai-texture-forge",
+      "stars": 191,
+      "language": null,
+      "description": "An AI-powered texture forge for Blender — turn text prompts into seamless PBR materials, concept art and scene-wide projections with local or cloud diffusion models, straight inside the 3D viewport on",
+      "created_at": "2026-11-11T19:09:18Z"
+    },
+    {
+      "full_name": "makepad/relax",
+      "url": "https://github.com/makepad/relax",
+      "stars": 155,
+      "language": "Rust",
+      "description": "Relax Rust JIT",
+      "created_at": "2026-11-11T19:12:58Z"
+    },
+    {
+      "full_name": "op7418/guizang-game-skill",
+      "url": "https://github.com/op7418/guizang-game-skill",
+      "stars": 127,
+      "language": "JavaScript",
+      "description": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo in",
+      "created_at": "2026-11-11T16:28:54Z"
+    },
+    {
+      "full_name": "DandanLLab/SnowCatQQ",
+      "url": "https://github.com/DandanLLab/SnowCatQQ",
+      "stars": 124,
+      "language": "JavaScript",
+      "description": "SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开",
+      "created_at": "2026-11-11T22:23:10Z"
+    },
+    {
+      "full_name": "BankerInterface/youtube-seo-optimizer",
+      "url": "https://github.com/BankerInterface/youtube-seo-optimizer",
+      "stars": 120,
+      "language": "Python",
+      "description": "Free YouTube SEO optimizer and metadata auditor. Analyze titles, descriptions, and tags to improve video rankings. Check chapters, keywords, and SEO scores locally. Open-source.",
+      "created_at": "2026-11-11T13:00:17Z"
+    },
+    {
+      "full_name": "Nobleglusurvive/discord-quest-completer",
+      "url": "https://github.com/Nobleglusurvive/discord-quest-completer",
+      "stars": 119,
+      "language": "Python",
+      "description": "Automated Discord Quest Completer. Supports all 5 quest types: game, video, stream, activity, and achievement. Built-in dashboard, safe timing, and privacy-first. Open-source.",
+      "created_at": "2026-11-11T11:51:00Z"
+    },
+    {
+      "full_name": "apex-compute/ANR",
+      "url": "https://github.com/apex-compute/ANR",
+      "stars": 117,
+      "language": null,
+      "description": "Apex Neural Rendering (ANR) by Apex Compute",
+      "created_at": "2026-11-11T04:27:17Z"
+    },
+    {
+      "full_name": "snicolast/SegaRally2Native",
+      "url": "https://github.com/snicolast/SegaRally2Native",
+      "stars": 96,
+      "language": "C++",
+      "description": "Sega Rally 2 - PC Port",
+      "created_at": "2026-11-11T04:43:58Z"
+    },
+    {
+      "full_name": "byizmysh/IZCIVSwitch",
+      "url": "https://github.com/byizmysh/IZCIVSwitch",
+      "stars": 93,
+      "language": "JavaScript",
+      "description": "Tool for accessing the Nintendo Switch 2 file system through Civilization VII.",
+      "created_at": "2026-11-11T06:53:24Z"
+    },
+    {
+      "full_name": "av/safe-sand",
+      "url": "https://github.com/av/safe-sand",
+      "stars": 85,
+      "language": "JavaScript",
+      "description": "Hyper-realistic sand on your phone screen (WebGL2)",
+      "created_at": "2026-11-11T11:17:23Z"
+    },
+    {
+      "full_name": "abdenourgnx/re-kindle",
+      "url": "https://github.com/abdenourgnx/re-kindle",
+      "stars": 84,
+      "language": "Shell",
+      "description": "",
+      "created_at": "2026-11-11T08:56:37Z"
+    },
+    {
+      "full_name": "nickvasilescu/bot-hq",
+      "url": "https://github.com/nickvasilescu/bot-hq",
+      "stars": 84,
+      "language": "TypeScript",
+      "description": "A team of Hermes agents you chat with, each with its own screen on one Orgo computer. Composio apps, xAI voice and X research.",
+      "created_at": "2026-11-11T08:23:30Z"
+    },
+    {
+      "full_name": "Harbornuembody/HWmonitor-software",
+      "url": "https://github.com/Harbornuembody/HWmonitor-software",
+      "stars": 81,
+      "language": null,
+      "description": "HWmonitor is a lightweight hardware monitoring software designed to track system performance and provide essential hardware information through a simple and intuitive interface.",
+      "created_at": "2026-11-11T20:55:08Z"
+    },
+    {
+      "full_name": "hseons/WQManager",
+      "url": "https://github.com/hseons/WQManager",
+      "stars": 75,
+      "language": "Objective-C",
+      "description": "iOS 26 app data manager, backup & cache cleaner built with Objective-C",
+      "created_at": "2026-11-11T08:36:50Z"
+    },
+    {
+      "full_name": "FrostPillage/CapCut-Pro-Version",
+      "url": "https://github.com/FrostPillage/CapCut-Pro-Version",
+      "stars": 75,
+      "language": "HTML",
+      "description": "CapCut Pro for Windows — free professional video editor with AI auto captions, effects, keyframes, transitions and high-quality 4K export for content creators.",
+      "created_at": "2026-11-11T20:52:29Z"
+    },
+    {
+      "full_name": "wquguru/fable52-fps-repro",
+      "url": "https://github.com/wquguru/fable52-fps-repro",
+      "stars": 72,
+      "language": "HTML",
+      "description": "Fable 5.2 一句话生成 3D FPS 复现：4 个单文件演示、提示词与缓存账单 / One-prompt 3D FPS repro with demos, prompts & cost data",
+      "created_at": "2026-11-11T04:58:58Z"
+    },
+    {
+      "full_name": "tigerogijzooav/Hyperliquid-Trade-Bot",
+      "url": "https://github.com/tigerogijzooav/Hyperliquid-Trade-Bot",
+      "stars": 70,
+      "language": "Python",
+      "description": "Independently analyze ROI, win rate, and PnL using the public Hyperliquid API, detect martingale/grid recovery strategies, and assess maximum drawdown and risk-adjusted returns. Read-only terminal che",
+      "created_at": "2026-11-11T19:11:59Z"
+    }
+  ],
+  "france24_in_window_items": [
+    {
+      "time_utc": "2026-11-11T23:47:50+00:00",
+      "title": "Democrat Scott Colom wins historic Senate race in Mississippi",
+      "url": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi"
+    },
+    {
+      "time_utc": "2026-11-11T23:47:17+00:00",
+      "title": "Democrat Scott Colom wins historic Senate race in Mississippi",
+      "url": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi"
+    },
+    {
+      "time_utc": "2026-11-11T23:43:24+00:00",
+      "title": "Pope Leo XIV returns to second homeland Peru and a nationwide welcome",
+      "url": "https://www.france24.com/en/americas/20261111-pope-leo-xiv-returns-to-second-homeland-peru-to-a-nationwide-welcome"
+    },
+    {
+      "time_utc": "2026-11-11T22:46:57+00:00",
+      "title": "European leaders gather in Dublin under the shadow of hybrid threats",
+      "url": "https://www.france24.com/en/european-leaders-gather-in-dublin-under-the-shadow-of-hybrid-threats"
+    },
+    {
+      "time_utc": "2026-11-11T22:13:05+00:00",
+      "title": "Gadi Eisenkot unveils agenda to reverse Netanyahu’s policies",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261111-gadi-eisenkot-unveils-agenda-to-reverse-netanyahu-s-policies"
+    },
+    {
+      "time_utc": "2026-11-11T22:11:46+00:00",
+      "title": "Gadi Eisenkot unveils agenda to reverse Netanyahu’s policies",
+      "url": "https://www.france24.com/en/gadi-eisenkot-unveils-agenda-to-reverse-netanyahu-s-policies"
+    },
+    {
+      "time_utc": "2026-11-11T21:46:12+00:00",
+      "title": "Russia and Ukraine agree to major prisoner swap as peace talks end",
+      "url": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end"
+    },
+    {
+      "time_utc": "2026-11-11T21:39:46+00:00",
+      "title": "Tshisekedi paves way for constitutional change",
+      "url": "https://www.france24.com/en/tshisekedi-paves-way-for-constitutional-change"
+    },
+    {
+      "time_utc": "2026-11-11T21:31:10+00:00",
+      "title": "General strike over housing brings out hundreds of thousands in Spain",
+      "url": "https://www.france24.com/en/general-strike-over-housing-brings-out-hundreds-of-thousands-in-spain"
+    },
+    {
+      "time_utc": "2026-11-11T21:05:07+00:00",
+      "title": "Rare Marilyn Monroe photos from her final shoot to be auctioned",
+      "url": "https://www.france24.com/en/rare-marilyn-monroe-photos-from-her-final-shoot-to-be-auctioned"
+    },
+    {
+      "time_utc": "2026-11-11T20:58:55+00:00",
+      "title": "France turns back Israeli settler representative upon arrival in Paris",
+      "url": "https://www.france24.com/en/france/20261111-france-turns-back-israeli-settler-representative-upon-arrival-in-paris"
+    },
+    {
+      "time_utc": "2026-11-11T20:44:21+00:00",
+      "title": "RSF calls for release of French reporter Christophe Gleizes, detained in Algeria",
+      "url": "https://www.france24.com/en/rsf-calls-for-release-of-french-reporter-christophe-gleizes-detained-in-algeria"
+    },
+    {
+      "time_utc": "2026-11-11T19:37:21+00:00",
+      "title": "General strike over housing brings out tens of thousands in Spain",
+      "url": "https://www.france24.com/en/general-strike-over-housing-brings-out-tens-of-thousands-in-spain"
+    },
+    {
+      "time_utc": "2026-11-11T19:32:29+00:00",
+      "title": "Undone by a honey trap? Nvidia's Jensen Huang at heart of China spy scandal",
+      "url": "https://www.france24.com/en/tv-shows/the-debate/20261111-undone-by-a-honey-trap-nvidia-s-jensen-huang-at-heart-of-china-spy-scandal"
+    },
+    {
+      "time_utc": "2026-11-11T19:31:16+00:00",
+      "title": "Tens of thousands attend Polish nationalist march days after shootings",
+      "url": "https://www.france24.com/en/tens-of-thousands-attend-polish-nationalist-march-days-afer-shootings-1"
+    },
+    {
+      "time_utc": "2026-11-11T19:29:19+00:00",
+      "title": "Schools evacuated across Italy after bomb threats",
+      "url": "https://www.france24.com/en/schools-evacuated-across-italy-after-bomb-threats"
+    },
+    {
+      "time_utc": "2026-11-11T19:23:56+00:00",
+      "title": "Nvidia's Jensen Huang at heart of China spy scandal",
+      "url": "https://www.france24.com/en/tv-shows/the-debate/20261111-nvidia-s-jensen-huang-at-heart-of-china-spy-scandal"
+    },
+    {
+      "time_utc": "2026-11-11T17:09:03+00:00",
+      "title": "The most hacked country in Europe? Why France is the target of so many cyberattacks",
+      "url": "https://www.france24.com/en/france/20261111-the-most-hacked-country-in-europe-why-is-france-the-target-of-so-many-cyberattacks"
+    }
+  ],
+  "arxiv_status": {
+    "rss": {
+      "arxiv_csai.xml": {
+        "items": 0,
+        "lastBuildDate": "Thu, 12 Nov 2026 05:00:00 +0000"
+      },
+      "arxiv_cslg.xml": {
+        "items": 0,
+        "lastBuildDate": "Thu, 12 Nov 2026 05:00:01 +0000"
+      }
+    },
+    "api_newest_csAI_published": "2026-11-10T18:59:54Z",
+    "in_window_announcements": 0,
+    "adjacent_batch_sample": [
+      {
+        "id": "2611.14519v1",
+        "published": "2026-11-10T18:59:54Z",
+        "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training"
+      },
+      {
+        "id": "2611.14518v1",
+        "published": "2026-11-10T18:59:17Z",
+        "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR"
+      },
+      {
+        "id": "2611.14514v1",
+        "published": "2026-11-10T18:58:43Z",
+        "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations"
+      },
+      {
+        "id": "2611.14493v1",
+        "published": "2026-11-10T18:50:06Z",
+        "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents"
+      },
+      {
+        "id": "2611.14492v1",
+        "published": "2026-11-10T18:49:47Z",
+        "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows"
+      },
+      {
+        "id": "2611.14487v1",
+        "published": "2026-11-10T18:47:22Z",
+        "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game"
+      }
+    ]
+  },
+  "firebase_front_page_cross_check": [
+    {
+      "front_page_rank": 1,
+      "id": "50463899",
+      "in_window": false,
+      "title": "Humble Bundle just killed most of their security through vibecoding",
+      "points": 86
+    },
+    {
+      "front_page_rank": 2,
+      "id": "50459745",
+      "in_window": true,
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "points": 384
+    },
+    {
+      "front_page_rank": 3,
+      "id": "50450488",
+      "in_window": true,
+      "title": "Tim Peters has died",
+      "points": 1125
+    },
+    {
+      "front_page_rank": 4,
+      "id": "50462177",
+      "in_window": false,
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "points": 150
+    },
+    {
+      "front_page_rank": 5,
+      "id": "50438261",
+      "in_window": false,
+      "title": "Jane Street: Socratic Tutor",
+      "points": 55
+    },
+    {
+      "front_page_rank": 6,
+      "id": "50456631",
+      "in_window": true,
+      "title": "AWS emulator",
+      "points": 812
+    },
+    {
+      "front_page_rank": 7,
+      "id": "50415162",
+      "in_window": false,
+      "title": "I gave an agent a lakehouse and control of my garden",
+      "points": 35
+    },
+    {
+      "front_page_rank": 8,
+      "id": "50459703",
+      "in_window": true,
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "points": 924
+    },
+    {
+      "front_page_rank": 9,
+      "id": "50455394",
+      "in_window": true,
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "points": 474
+    },
+    {
+      "front_page_rank": 10,
+      "id": "50456791",
+      "in_window": true,
+      "title": "Gemini Decisions API",
+      "points": 399
+    },
+    {
+      "front_page_rank": 11,
+      "id": "50458900",
+      "in_window": true,
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "points": 526
+    },
+    {
+      "front_page_rank": 12,
+      "id": "50463540",
+      "in_window": false,
+      "title": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
+      "points": 25
+    },
+    {
+      "front_page_rank": 13,
+      "id": "50459485",
+      "in_window": true,
+      "title": "Lock Your GitHub Actions",
+      "points": 226
+    },
+    {
+      "front_page_rank": 14,
+      "id": "50463103",
+      "in_window": false,
+      "title": "Darling Development Update – Q4 2026",
+      "points": 18
+    },
+    {
+      "front_page_rank": 15,
+      "id": "50458208",
+      "in_window": true,
+      "title": "Emacs in the Age of Magic",
+      "points": 211
+    },
+    {
+      "front_page_rank": 16,
+      "id": "50462613",
+      "in_window": false,
+      "title": "Bad ideas that aren't bad anymore",
+      "points": 30
+    },
+    {
+      "front_page_rank": 17,
+      "id": "50420905",
+      "in_window": false,
+      "title": "Slavdom Unearthed: Marian Wawrzeniecki's Neopagan Paintings (1891–1923)",
+      "points": 20
+    },
+    {
+      "front_page_rank": 18,
+      "id": "50457618",
+      "in_window": true,
+      "title": "The Utah Teapot",
+      "points": 125
+    },
+    {
+      "front_page_rank": 19,
+      "id": "50460154",
+      "in_window": true,
+      "title": "A general purpose Apple Silicon layer for x86-64 PCs",
+      "points": 97
+    },
+    {
+      "front_page_rank": 20,
+      "id": "50428619",
+      "in_window": false,
+      "title": "Did Life Begin in an RNA World?",
+      "points": 56
+    },
+    {
+      "front_page_rank": 21,
+      "id": "50462375",
+      "in_window": false,
+      "title": "Lean Grimoire",
+      "points": 31
+    },
+    {
+      "front_page_rank": 22,
+      "id": "50452455",
+      "in_window": true,
+      "title": "My AI agents found an unmapped Maya site?",
+      "points": 976
+    },
+    {
+      "front_page_rank": 23,
+      "id": "50453288",
+      "in_window": true,
+      "title": "Hyper-Realistic Sand with WebGL2",
+      "points": 361
+    },
+    {
+      "front_page_rank": 24,
+      "id": "50456279",
+      "in_window": true,
+      "title": "The Lost World of Aquaterra",
+      "points": 4
+    },
+    {
+      "front_page_rank": 25,
+      "id": "50435712",
+      "in_window": false,
+      "title": "Stingray Fish Laser",
+      "points": 27
+    },
+    {
+      "front_page_rank": 26,
+      "id": "50455633",
+      "in_window": true,
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "points": 199
+    },
+    {
+      "front_page_rank": 27,
+      "id": "50454625",
+      "in_window": true,
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "points": 229
+    },
+    {
+      "front_page_rank": 28,
+      "id": "50458166",
+      "in_window": true,
+      "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+      "points": 94
+    },
+    {
+      "front_page_rank": 29,
+      "id": "50457230",
+      "in_window": true,
+      "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+      "points": 216
+    },
+    {
+      "front_page_rank": 30,
+      "id": "50452655",
+      "in_window": true,
+      "title": "Can a Linear Program Do Weight-Space Programming?",
+      "points": 271
+    }
+  ],
+  "fetch_log": [
+    {
+      "name": "hn_bydate_p0.json",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1794355200%2Ccreated_at_i%3C1794441600&hitsPerPage=100&page=0",
+      "status": "ok",
+      "bytes": 90291
+    },
+    {
+      "name": "hn_bydate_p1.json",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1794355200%2Ccreated_at_i%3C1794441600&hitsPerPage=100&page=1",
+      "status": "ok",
+      "bytes": 90880
+    },
+    {
+      "name": "hn_bydate_p2.json",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1794355200%2Ccreated_at_i%3C1794441600&hitsPerPage=100&page=2",
+      "status": "ok",
+      "bytes": 106689
+    },
+    {
+      "name": "hn_bydate_p3.json",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1794355200%2Ccreated_at_i%3C1794441600&hitsPerPage=100&page=3",
+      "status": "ok",
+      "bytes": 86127
+    },
+    {
+      "name": "hn_bydate_p4.json",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1794355200%2Ccreated_at_i%3C1794441600&hitsPerPage=100&page=4",
+      "status": "ok",
+      "bytes": 100271
+    },
+    {
+      "name": "hn_bydate_p5.json",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1794355200%2Ccreated_at_i%3C1794441600&hitsPerPage=100&page=5",
+      "status": "ok",
+      "bytes": 103523
+    },
+    {
+      "name": "hn_bydate_p6.json",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1794355200%2Ccreated_at_i%3C1794441600&hitsPerPage=100&page=6",
+      "status": "ok",
+      "bytes": 83994
+    },
+    {
+      "name": "hn_item_50459703.json",
+      "url": "https://hn.algolia.com/api/v1/items/50459703",
+      "status": "ok",
+      "bytes": 610343
+    },
+    {
+      "name": "hn_item_50456631.json",
+      "url": "https://hn.algolia.com/api/v1/items/50456631",
+      "status": "ok",
+      "bytes": 108239
+    },
+    {
+      "name": "hn_item_50458900.json",
+      "url": "https://hn.algolia.com/api/v1/items/50458900",
+      "status": "ok",
+      "bytes": 301019
+    },
+    {
+      "name": "hn_item_50455394.json",
+      "url": "https://hn.algolia.com/api/v1/items/50455394",
+      "status": "ok",
+      "bytes": 138506
+    },
+    {
+      "name": "hn_item_50456791.json",
+      "url": "https://hn.algolia.com/api/v1/items/50456791",
+      "status": "ok",
+      "bytes": 61647
+    },
+    {
+      "name": "hn_item_50459745.json",
+      "url": "https://hn.algolia.com/api/v1/items/50459745",
+      "status": "ok",
+      "bytes": 22671
+    },
+    {
+      "name": "hn_item_50459321.json",
+      "url": "https://hn.algolia.com/api/v1/items/50459321",
+      "status": "ok",
+      "bytes": 169772
+    },
+    {
+      "name": "hn_item_50453474.json",
+      "url": "https://hn.algolia.com/api/v1/items/50453474",
+      "status": "ok",
+      "bytes": 126578
+    },
+    {
+      "name": "hn_item_50453555.json",
+      "url": "https://hn.algolia.com/api/v1/items/50453555",
+      "status": "ok",
+      "bytes": 1417
+    },
+    {
+      "name": "hn_item_50454625.json",
+      "url": "https://hn.algolia.com/api/v1/items/50454625",
+      "status": "ok",
+      "bytes": 46079
+    },
+    {
+      "name": "hn_item_50459776.json",
+      "url": "https://hn.algolia.com/api/v1/items/50459776",
+      "status": "ok",
+      "bytes": 1804
+    },
+    {
+      "name": "hn_item_50459485.json",
+      "url": "https://hn.algolia.com/api/v1/items/50459485",
+      "status": "ok",
+      "bytes": 24471
+    },
+    {
+      "name": "hn_item_50457939.json",
+      "url": "https://hn.algolia.com/api/v1/items/50457939",
+      "status": "ok",
+      "bytes": 157218
+    },
+    {
+      "name": "hn_item_50457230.json",
+      "url": "https://hn.algolia.com/api/v1/items/50457230",
+      "status": "ok",
+      "bytes": 40356
+    },
+    {
+      "name": "hn_item_50453637.json",
+      "url": "https://hn.algolia.com/api/v1/items/50453637",
+      "status": "ok",
+      "bytes": 37148
+    },
+    {
+      "name": "gh_day.json",
+      "url": "https://api.github.com/search/repositories?q=created%3A2026-11-11&sort=stars&order=desc&per_page=20",
+      "status": "ok",
+      "bytes": 114597
+    },
+    {
+      "name": "gh_two_days.json",
+      "url": "https://api.github.com/search/repositories?q=created%3A2026-11-10..2026-11-11&sort=stars&order=desc&per_page=20",
+      "status": "error",
+      "error": "<HTTPError 403: 'rate limit exceeded'>"
+    },
+    {
+      "name": "arxiv_csai.xml",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "bytes": 892
+    },
+    {
+      "name": "arxiv_cslg.xml",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "bytes": 892
+    },
+    {
+      "name": "rss_bbccouk_world.xml",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "status": "error",
+      "error": "URLError(TimeoutError('_ssl.c:1063: The handshake operation timed out'))"
+    },
+    {
+      "name": "rss_dw_world.xml",
+      "url": "https://rss.dw.com/rdf/rss-en-world",
+      "status": "error",
+      "error": "URLError(ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+    },
+    {
+      "name": "rss_france24.xml",
+      "url": "https://www.france24.com/en/rss",
+      "status": "ok",
+      "bytes": 29927
+    },
+    {
+      "name": "hn_firebase_topstories.json",
+      "url": "https://hacker-news.firebaseio.com/v0/topstories.json",
+      "status": "ok",
+      "bytes": 4501
+    },
+    {
+      "name": "hn_firebase_item_50463899.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50463899.json",
+      "status": "ok",
+      "bytes": 395
+    },
+    {
+      "name": "hn_firebase_item_50459745.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50459745.json",
+      "status": "ok",
+      "bytes": 420
+    },
+    {
+      "name": "hn_firebase_item_50450488.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50450488.json",
+      "status": "ok",
+      "bytes": 872
+    },
+    {
+      "name": "hn_firebase_item_50462177.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50462177.json",
+      "status": "ok",
+      "bytes": 445
+    },
+    {
+      "name": "hn_firebase_item_50438261.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50438261.json",
+      "status": "ok",
+      "bytes": 303
+    },
+    {
+      "name": "hn_firebase_item_50456631.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50456631.json",
+      "status": "ok",
+      "bytes": 1392
+    },
+    {
+      "name": "hn_firebase_item_50415162.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50415162.json",
+      "status": "ok",
+      "bytes": 277
+    },
+    {
+      "name": "hn_firebase_item_50459703.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50459703.json",
+      "status": "ok",
+      "bytes": 1910
+    },
+    {
+      "name": "hn_firebase_item_50455394.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50455394.json",
+      "status": "ok",
+      "bytes": 652
+    },
+    {
+      "name": "hn_firebase_item_50456791.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50456791.json",
+      "status": "ok",
+      "bytes": 476
+    },
+    {
+      "name": "hn_firebase_item_50458900.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50458900.json",
+      "status": "ok",
+      "bytes": 1080
+    },
+    {
+      "name": "hn_firebase_item_50463540.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50463540.json",
+      "status": "ok",
+      "bytes": 249
+    },
+    {
+      "name": "hn_firebase_item_50459485.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50459485.json",
+      "status": "ok",
+      "bytes": 372
+    },
+    {
+      "name": "hn_firebase_item_50463103.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50463103.json",
+      "status": "ok",
+      "bytes": 259
+    },
+    {
+      "name": "hn_firebase_item_50458208.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50458208.json",
+      "status": "ok",
+      "bytes": 372
+    },
+    {
+      "name": "hn_firebase_item_50462613.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50462613.json",
+      "status": "ok",
+      "bytes": 302
+    },
+    {
+      "name": "hn_firebase_item_50420905.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50420905.json",
+      "status": "ok",
+      "bytes": 283
+    },
+    {
+      "name": "hn_firebase_item_50457618.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50457618.json",
+      "status": "ok",
+      "bytes": 520
+    },
+    {
+      "name": "hn_firebase_item_50460154.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50460154.json",
+      "status": "ok",
+      "bytes": 264
+    },
+    {
+      "name": "hn_firebase_item_50428619.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50428619.json",
+      "status": "ok",
+      "bytes": 267
+    },
+    {
+      "name": "hn_firebase_item_50462375.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50462375.json",
+      "status": "ok",
+      "bytes": 217
+    },
+    {
+      "name": "hn_firebase_item_50452455.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50452455.json",
+      "status": "ok",
+      "bytes": 1113
+    },
+    {
+      "name": "hn_firebase_item_50453288.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50453288.json",
+      "status": "ok",
+      "bytes": 545
+    },
+    {
+      "name": "hn_firebase_item_50456279.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50456279.json",
+      "status": "ok",
+      "bytes": 218
+    },
+    {
+      "name": "hn_firebase_item_50435712.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50435712.json",
+      "status": "ok",
+      "bytes": 294
+    },
+    {
+      "name": "hn_firebase_item_50455633.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50455633.json",
+      "status": "ok",
+      "bytes": 288
+    },
+    {
+      "name": "hn_firebase_item_50454625.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50454625.json",
+      "status": "ok",
+      "bytes": 3094
+    },
+    {
+      "name": "hn_firebase_item_50458166.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50458166.json",
+      "status": "ok",
+      "bytes": 284
+    },
+    {
+      "name": "hn_firebase_item_50457230.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50457230.json",
+      "status": "ok",
+      "bytes": 416
+    },
+    {
+      "name": "hn_firebase_item_50452655.json",
+      "url": "https://hacker-news.firebaseio.com/v0/item/50452655.json",
+      "status": "ok",
+      "bytes": 348
+    }
+  ]
+}
